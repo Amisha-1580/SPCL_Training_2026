@@ -78,6 +78,3 @@ Name: Amisha Bhasme
 Program: Industrial Training 2026
 Day: 02
 
-🔗 Repository Link
-
-(Add your GitHub repository link here)
