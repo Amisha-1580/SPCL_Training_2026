@@ -1,41 +1,35 @@
-📄 Day 01 – Portfolio Website (Progress Report)
+📄 Day 02 – Portfolio Website (Progress Report)
 📌 Objective
 
-The objective of Day 01 was to set up the project structure and create the basic layout of a Personal Portfolio Website using HTML, CSS, and JavaScript.
+The objective of Day 02 was to upgrade the basic portfolio website by improving
+the user interface, adding new sections, and enhancing functionality using HTML, CSS, and JavaScript.
 
-🛠 Work Done (Day 01)
+🛠 Work Done (Day 02)
 
-Created folder structure for the portfolio project.
+Improved overall UI design and layout of the portfolio website.
 
-Developed the basic webpage layout using HTML.
+Added Projects section to display project details.
 
-Designed and styled the webpage using CSS.
+Implemented Resume Download button functionality.
 
-Added simple interactivity using JavaScript.
+Applied smooth scrolling for navigation between sections.
 
-Added main sections:
+Made the website responsive for mobile devices using media queries.
 
-Home
+Added scroll animation using JavaScript for better user experience.
 
-About
+Updated project files and pushed changes to the GitHub repository.
 
-Skills
 
-Contact
-
-Created a 7-day development plan for the portfolio project.
-
-Uploaded the initial project files to GitHub repository.
-
-📂 Files Added
+📂 Files Updated
 Week-01-Portfolio-Website/
 │
-├── index.html
-├── style.css
-├── script.js
+├── portfolio.html
+├── portfolio.css
+├── portfolio.js
 ├── plan.md
-└── assets/
-    └── images/
+
+   
 
 💻 Technologies Used
 
@@ -47,30 +41,43 @@ JavaScript
 
 Git & GitHub
 
+
 🎯 Output
 
-A basic working portfolio website with:
+An upgraded portfolio website with:
 
-Navigation menu
+Better layout and styling
 
-Multiple content sections
+Projects section
 
-Basic styling
+Resume download feature
 
-Button click interaction
+Smooth scrolling navigation
+
+Mobile responsive design
+
+Scroll-based animation
+
 
 🔧 Future Improvements
 
-Add Projects and Certifications sections
+Add detailed project descriptions with live demo links.
 
-Implement Resume Download button
+Add Certifications section.
 
-Add animations for better UI
+Implement Contact form with validation.
 
-Make website responsive for mobile devices
+Enhance animations and transitions.
+
+Deploy website using GitHub Pages.
+
 
 🧑‍💻 Author
 
 Name: Amisha Bhasme
 Program: Industrial Training 2026
-Day: 01
+Day: 02
+
+🔗 Repository Link
+
+(Add your GitHub repository link here)
