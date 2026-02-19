@@ -1,25 +1,22 @@
-📄 Day 02 – Portfolio Website (Progress Report)
+📄 Day 03 – Portfolio Website (Progress Report)
 📌 Objective
 
-The objective of Day 02 was to upgrade the basic portfolio website by improving
-the user interface, adding new sections, and enhancing functionality using HTML, CSS, and JavaScript.
+The objective of Day 03 was to enhance the portfolio website by adding more content sections and 
+improving user interaction using HTML, CSS, and JavaScript.
 
-🛠 Work Done (Day 02)
+🛠 Work Done (Day 03)
 
-Improved overall UI design and layout of the portfolio website.
+Added Certifications section to display professional achievements.
 
-Added Projects section to display project details.
+Implemented a Contact form with basic validation using JavaScript.
 
-Implemented Resume Download button functionality.
+Applied hover effects on skills and project cards for better UI interaction.
 
-Applied smooth scrolling for navigation between sections.
+Enhanced scroll-based animations for smoother user experience.
 
-Made the website responsive for mobile devices using media queries.
-
-Added scroll animation using JavaScript for better user experience.
+Improved overall layout and styling of the portfolio website.
 
 Updated project files and pushed changes to the GitHub repository.
-
 
 📂 Files Updated
 Week-01-Portfolio-Website/
@@ -29,7 +26,6 @@ Week-01-Portfolio-Website/
 ├── portfolio.js
 ├── plan.md
 
-   
 
 💻 Technologies Used
 
@@ -44,30 +40,28 @@ Git & GitHub
 
 🎯 Output
 
-An upgraded portfolio website with:
+An enhanced portfolio website with:
 
-Better layout and styling
+Certifications section
 
-Projects section
+Contact form
 
-Resume download feature
+Hover animations
 
-Smooth scrolling navigation
+Scroll animations
 
-Mobile responsive design
-
-Scroll-based animation
+Improved UI layout
 
 
 🔧 Future Improvements
 
-Add detailed project descriptions with live demo links.
+Add live project demo links.
 
-Add Certifications section.
+Improve form validation and backend integration.
 
-Implement Contact form with validation.
+Add dark/light mode toggle.
 
-Enhance animations and transitions.
+Improve mobile responsiveness.
 
 Deploy website using GitHub Pages.
 
@@ -76,5 +70,4 @@ Deploy website using GitHub Pages.
 
 Name: Amisha Bhasme
 Program: Industrial Training 2026
-Day: 02
-
+Day: 03
