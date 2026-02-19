@@ -1,10 +1,10 @@
-📄 Day 03 – Portfolio Website (Progress Report)
+📄 Day 04 – Portfolio Website (Progress Report)
 📌 Objective
 
-The objective of Day 03 was to enhance the portfolio website by adding more content sections and 
+The objective of Day 04 was to enhance the portfolio website by adding more content sections and 
 improving user interaction using HTML, CSS, and JavaScript.
 
-🛠 Work Done (Day 03)
+🛠 Work Done (Day 04)
 
 Added Certifications section to display professional achievements.
 
@@ -70,4 +70,4 @@ Deploy website using GitHub Pages.
 
 Name: Amisha Bhasme
 Program: Industrial Training 2026
-Day: 03
+Day: 04
