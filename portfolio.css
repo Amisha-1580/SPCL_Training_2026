@@ -43,7 +43,7 @@ nav a:hover {
 }
 
 .hero-img img {
-  width: 250px;
+  width: 240px;
   border-radius: 50%;
 }
 
@@ -56,6 +56,8 @@ nav a:hover {
   padding: 10px 18px;
   text-decoration: none;
   border-radius: 5px;
+  border: none;
+  cursor: pointer;
 }
 
 /* SECTIONS */
@@ -75,11 +77,37 @@ section {
   padding: 15px;
   border-radius: 8px;
   text-align: center;
+  transition: transform 0.3s;
+}
+
+.grid div:hover,
+.card:hover {
+  transform: scale(1.05);
 }
 
 .projects {
   display: flex;
   gap: 20px;
+}
+
+.cert-list {
+  list-style: square;
+  padding-left: 20px;
+}
+
+/* CONTACT FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+form input,
+form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
 }
 
 /* FOOTER */
@@ -89,7 +117,7 @@ footer {
   padding: 15px;
 }
 
-/* MOBILE RESPONSIVE */
+/* MOBILE */
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
