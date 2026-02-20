@@ -1,3 +1,4 @@
+// Scroll animation
 const sections = document.querySelectorAll("section");
 
 sections.forEach(section => {
@@ -16,8 +17,15 @@ window.addEventListener("scroll", () => {
   });
 });
 
-// Contact form message
+// Contact form
 document.getElementById("contactForm").addEventListener("submit", function(e){
   e.preventDefault();
   alert("Message sent successfully!");
+});
+
+// Dark/Light mode toggle
+const toggleBtn = document.getElementById("themeToggle");
+toggleBtn.addEventListener("click", () => {
+  document.body.classList.toggle("light-theme");
+  toggleBtn.textContent = document.body.classList.contains("light-theme") ? "☀️" : "🌙";
 });
