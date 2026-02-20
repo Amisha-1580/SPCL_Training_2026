@@ -1,22 +1,24 @@
-📄 Day 04 – Portfolio Website (Progress Report)
+📄 Day 05 – Portfolio Website (Progress Report)
 📌 Objective
 
-The objective of Day 04 was to enhance the portfolio website by adding more content sections and 
-improving user interaction using HTML, CSS, and JavaScript.
+The objective of Day 04 was to enhance the portfolio website by improving 
+usability, adding theme functionality, and making the design more interactive and professional.
 
-🛠 Work Done (Day 04)
+🛠 Work Done (Day 05)
 
-Added Certifications section to display professional achievements.
+Implemented Dark / Light Mode toggle using JavaScript and CSS variables.
 
-Implemented a Contact form with basic validation using JavaScript.
+Improved UI animations for smooth section transitions on scroll.
 
-Applied hover effects on skills and project cards for better UI interaction.
+Enhanced overall responsiveness for mobile and tablet devices.
 
-Enhanced scroll-based animations for smoother user experience.
+Added better hover effects on skills and project cards.
 
-Improved overall layout and styling of the portfolio website.
+Cleaned and optimized HTML, CSS, and JavaScript code structure.
 
-Updated project files and pushed changes to the GitHub repository.
+Updated project files and pushed the changes to the GitHub repository.
+
+
 
 📂 Files Updated
 Week-01-Portfolio-Website/
@@ -25,6 +27,7 @@ Week-01-Portfolio-Website/
 ├── portfolio.css
 ├── portfolio.js
 ├── plan.md
+
 
 
 💻 Technologies Used
@@ -38,36 +41,39 @@ JavaScript
 Git & GitHub
 
 
+
 🎯 Output
 
-An enhanced portfolio website with:
+A modern and interactive portfolio website with:
 
-Certifications section
+Dark / Light mode toggle
 
-Contact form
+Smooth scroll animations
 
-Hover animations
+Improved responsiveness
 
-Scroll animations
+Interactive cards and buttons
 
-Improved UI layout
+Clean and professional UI
+
 
 
 🔧 Future Improvements
 
+Add backend integration for Contact form.
+
 Add live project demo links.
 
-Improve form validation and backend integration.
+Implement dark/light mode memory using localStorage.
 
-Add dark/light mode toggle.
-
-Improve mobile responsiveness.
+Add loading animations and page transitions.
 
 Deploy website using GitHub Pages.
+
 
 
 🧑‍💻 Author
 
 Name: Amisha Bhasme
 Program: Industrial Training 2026
-Day: 04
+Day: 05
