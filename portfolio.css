@@ -1,14 +1,14 @@
 :root {
-  --bg-color: #0f0f0f;
-  --text-color: white;
-  --card-bg: #1a1a1a;
+  --bg: #0f0f0f;
+  --text: white;
+  --card: #1a1a1a;
   --accent: orange;
 }
 
 .light-theme {
-  --bg-color: #f4f4f4;
-  --text-color: black;
-  --card-bg: white;
+  --bg: #f4f4f4;
+  --text: black;
+  --card: white;
   --accent: #007bff;
 }
 
@@ -21,29 +21,38 @@
 }
 
 body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* LOADER */
+#loader {
+  position: fixed;
+  inset: 0;
+  background: black;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  z-index: 1000;
 }
 
 /* HEADER */
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 15px 40px;
-  background-color: black;
-}
-
-.logo {
-  color: var(--accent);
+  background: black;
 }
 
 nav a {
+  margin: 0 10px;
   color: gray;
-  margin: 0 12px;
   text-decoration: none;
 }
 
+nav a.active,
 nav a:hover {
   color: var(--accent);
 }
@@ -56,36 +65,29 @@ nav a:hover {
   cursor: pointer;
 }
 
-/* HERO */
 .hero {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 60px;
 }
 
 .hero-img img {
-  width: 240px;
+  width: 220px;
   border-radius: 50%;
 }
 
-/* BUTTON */
 .btn {
-  display: inline-block;
-  margin-top: 15px;
-  background-color: var(--accent);
+  background: var(--accent);
   color: black;
   padding: 10px 18px;
-  text-decoration: none;
   border-radius: 5px;
   border: none;
+  text-decoration: none;
   cursor: pointer;
 }
 
-/* SECTIONS */
 section {
   padding: 60px;
-  transition: 0.6s;
 }
 
 .grid {
@@ -96,10 +98,9 @@ section {
 
 .grid div,
 .card {
-  background-color: var(--card-bg);
+  background: var(--card);
   padding: 15px;
   border-radius: 8px;
-  text-align: center;
   transition: transform 0.3s;
 }
 
@@ -113,41 +114,29 @@ section {
   gap: 20px;
 }
 
-.cert-list {
-  list-style: square;
-  padding-left: 20px;
+.card a {
+  color: var(--accent);
+  text-decoration: none;
 }
 
-/* CONTACT FORM */
 form {
+  max-width: 400px;
   display: flex;
   flex-direction: column;
-  max-width: 400px;
 }
 
-form input,
-form textarea {
+form input, textarea {
   margin: 10px 0;
   padding: 10px;
-  border-radius: 5px;
-  border: none;
 }
 
-/* FOOTER */
 footer {
-  background-color: black;
+  background: black;
   text-align: center;
   padding: 15px;
 }
 
-/* MOBILE */
-@media (max-width: 768px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .projects {
-    flex-direction: column;
-  }
+@media(max-width:768px) {
+  .hero { flex-direction: column; text-align: center; }
+  .projects { flex-direction: column; }
 }
