@@ -1,31 +1,54 @@
-// Scroll animation
-const sections = document.querySelectorAll("section");
+// LOADER
+window.onload = () => {
+  document.getElementById("loader").style.display = "none";
+};
 
-sections.forEach(section => {
-  section.style.opacity = 0;
-  section.style.transform = "translateY(40px)";
-  section.style.transition = "0.6s";
-});
+// THEME MEMORY
+const toggleBtn = document.getElementById("themeToggle");
+
+if (localStorage.getItem("theme") === "light") {
+  document.body.classList.add("light-theme");
+  toggleBtn.textContent = "☀️";
+}
+
+toggleBtn.onclick = () => {
+  document.body.classList.toggle("light-theme");
+  const theme = document.body.classList.contains("light-theme") ? "light" : "dark";
+  localStorage.setItem("theme", theme);
+  toggleBtn.textContent = theme === "light" ? "☀️" : "🌙";
+};
+
+// ACTIVE NAV LINK
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll("nav a");
 
 window.addEventListener("scroll", () => {
-  sections.forEach(section => {
-    const top = section.getBoundingClientRect().top;
-    if (top < window.innerHeight - 100) {
-      section.style.opacity = 1;
-      section.style.transform = "translateY(0)";
+  let current = "";
+  sections.forEach(sec => {
+    const top = sec.offsetTop - 100;
+    if (pageYOffset >= top) {
+      current = sec.getAttribute("id");
+    }
+  });
+
+  navLinks.forEach(a => {
+    a.classList.remove("active");
+    if (a.getAttribute("href") === "#" + current) {
+      a.classList.add("active");
     }
   });
 });
 
-// Contact form
-document.getElementById("contactForm").addEventListener("submit", function(e){
+// CONTACT FORM VALIDATION
+document.getElementById("contactForm").addEventListener("submit", e => {
   e.preventDefault();
-  alert("Message sent successfully!");
-});
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const msg = document.getElementById("message").value;
 
-// Dark/Light mode toggle
-const toggleBtn = document.getElementById("themeToggle");
-toggleBtn.addEventListener("click", () => {
-  document.body.classList.toggle("light-theme");
-  toggleBtn.textContent = document.body.classList.contains("light-theme") ? "☀️" : "🌙";
+  if (!name || !email || !msg) {
+    alert("Please fill all fields!");
+  } else {
+    alert("Message sent successfully!");
+  }
 });
