@@ -1,24 +1,24 @@
-📄 Day 05 – Portfolio Website (Progress Report)
+📄 Day 06 – Portfolio Website (Progress Report)
 📌 Objective
 
-The objective of Day 04 was to enhance the portfolio website by improving 
-usability, adding theme functionality, and making the design more interactive and professional.
+The objective of Day 06 was to make the portfolio website more professional by adding 
+advanced interactivity, improving user experience, and implementing persistent features using JavaScript.
 
-🛠 Work Done (Day 05)
+🛠 Work Done (Day 06)
 
-Implemented Dark / Light Mode toggle using JavaScript and CSS variables.
+Implemented Dark / Light mode memory using localStorage.
 
-Improved UI animations for smooth section transitions on scroll.
+Added loader animation while the website loads.
 
-Enhanced overall responsiveness for mobile and tablet devices.
+Implemented active navigation link highlight based on scroll position.
 
-Added better hover effects on skills and project cards.
+Added live project links in the Projects section.
 
-Cleaned and optimized HTML, CSS, and JavaScript code structure.
+Applied contact form validation using JavaScript.
 
-Updated project files and pushed the changes to the GitHub repository.
+Improved overall UI transitions and smooth scrolling behavior.
 
-
+Updated and pushed the enhanced code to the GitHub repository.
 
 📂 Files Updated
 Week-01-Portfolio-Website/
@@ -27,7 +27,6 @@ Week-01-Portfolio-Website/
 ├── portfolio.css
 ├── portfolio.js
 ├── plan.md
-
 
 
 💻 Technologies Used
@@ -44,36 +43,36 @@ Git & GitHub
 
 🎯 Output
 
-A modern and interactive portfolio website with:
+A fully interactive and user-friendly portfolio website with:
 
-Dark / Light mode toggle
+Dark / Light mode with memory
 
-Smooth scroll animations
+Loading screen animation
 
-Improved responsiveness
+Active navbar link highlight
 
-Interactive cards and buttons
+Project live links
 
-Clean and professional UI
+Contact form validation
+
+Responsive and modern UI
 
 
 
 🔧 Future Improvements
 
-Add backend integration for Contact form.
+Integrate backend for Contact form (email service or database).
 
-Add live project demo links.
+Add project filtering or category system.
 
-Implement dark/light mode memory using localStorage.
+Improve animation performance.
 
-Add loading animations and page transitions.
+Add accessibility features (ARIA labels, better contrast).
 
 Deploy website using GitHub Pages.
-
-
 
 🧑‍💻 Author
 
 Name: Amisha Bhasme
 Program: Industrial Training 2026
-Day: 05
+Day: 06
