@@ -8,10 +8,13 @@
 </head>
 <body>
 
+<!-- LOADER -->
+<div id="loader">Loading...</div>
+
 <header>
   <h2 class="logo">Amisha</h2>
-  <nav>
-    <a href="#home">Home</a>
+  <nav id="navbar">
+    <a href="#home" class="active">Home</a>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
@@ -34,10 +37,7 @@
 
 <section id="about">
   <h2>About Me</h2>
-  <p>
-    I am a Computer Science student learning web development.
-    I enjoy building websites and improving my coding skills.
-  </p>
+  <p>I am a Computer Science student learning full stack web development.</p>
 </section>
 
 <section id="skills">
@@ -56,35 +56,34 @@
   <div class="projects">
     <div class="card">
       <h3>Portfolio Website</h3>
-      <p>Personal portfolio using HTML, CSS and JavaScript.</p>
+      <p>Personal responsive portfolio.</p>
+      <a href="https://github.com/your-username/portfolio" target="_blank">View</a>
     </div>
     <div class="card">
       <h3>Calculator App</h3>
-      <p>Simple calculator using JavaScript.</p>
+      <p>JavaScript calculator.</p>
+      <a href="https://github.com/your-username/calculator" target="_blank">View</a>
     </div>
   </div>
 </section>
 
 <section id="certifications">
   <h2>Certifications</h2>
-  <ul class="cert-list">
-    <li>Generative AI for Software Development – IBM</li>
+  <ul>
+    <li>Generative AI – IBM</li>
     <li>Prompt Engineering – Simplilearn</li>
-    <li>Career Skills in Data Analytics – Microsoft & LinkedIn</li>
+    <li>Data Analytics – Microsoft</li>
   </ul>
 </section>
 
 <section id="contact">
   <h2>Contact Me</h2>
   <form id="contactForm">
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <textarea placeholder="Your Message" required></textarea>
-    <button type="submit" class="btn">Send Message</button>
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+    <textarea id="message" placeholder="Your Message"></textarea>
+    <button type="submit" class="btn">Send</button>
   </form>
-
-  <p>Email: originwork520@gmail.com</p>
-  <p>GitHub: github.com/Amisha-1580</p>
 </section>
 
 <footer>
