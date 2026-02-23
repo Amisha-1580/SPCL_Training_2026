@@ -30,7 +30,7 @@ body {
   position: fixed;
   inset: 0;
   background: black;
-  color: orange;
+  color: var(--accent);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,6 +44,8 @@ header {
   justify-content: space-between;
   padding: 15px 40px;
   background: black;
+  position: sticky;
+  top: 0;
 }
 
 nav a {
@@ -88,6 +90,12 @@ nav a:hover {
 
 section {
   padding: 60px;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from {opacity:0; transform: translateY(20px);}
+  to {opacity:1; transform: translateY(0);}
 }
 
 .grid {
