@@ -25,10 +25,8 @@ const navLinks = document.querySelectorAll("nav a");
 window.addEventListener("scroll", () => {
   let current = "";
   sections.forEach(sec => {
-    const top = sec.offsetTop - 100;
-    if (pageYOffset >= top) {
-      current = sec.getAttribute("id");
-    }
+    const top = sec.offsetTop - 150;
+    if (pageYOffset >= top) current = sec.id;
   });
 
   navLinks.forEach(a => {
@@ -42,9 +40,9 @@ window.addEventListener("scroll", () => {
 // CONTACT FORM VALIDATION
 document.getElementById("contactForm").addEventListener("submit", e => {
   e.preventDefault();
-  const name = document.getElementById("name").value;
-  const email = document.getElementById("email").value;
-  const msg = document.getElementById("message").value;
+  const name = name.value;
+  const email = email.value;
+  const msg = message.value;
 
   if (!name || !email || !msg) {
     alert("Please fill all fields!");
